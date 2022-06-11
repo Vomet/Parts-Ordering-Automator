@@ -21,12 +21,12 @@ show_dropdown()
 
 shift_tab()
 {
-; presses shift + tab
-Send {LShift down}
-Send {Tab down}
-Send {LShift up}
-Send {Tab up}
-return
+	; presses shift + tab
+	Send {LShift down}
+	Send {Tab down}
+	Send {LShift up}
+	Send {Tab up}
+	return
 }
 
 alt_tab()
