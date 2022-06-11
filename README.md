@@ -5,7 +5,8 @@ For use in a specific Microsoft Access Database template.
 
 ## Prerequisites
 1. Download latest version of [AutoHotKey](https://www.autohotkey.com/). Note, the portable version is recommended.
-2. Download this [repository](https://github.com/Vomet/Parts-Ordering-Automator/)
+2. Download this [repository](https://github.com/Vomet/Parts-Ordering-Automator/) as a ZIP file.
+3. Extract ZIP file.
 
 ## Instructions
 1. Run `Parts Ordering.ahk`
