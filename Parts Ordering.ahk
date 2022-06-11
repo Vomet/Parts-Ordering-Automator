@@ -1,3 +1,6 @@
+; This project is licensed under the terms of the MIT license. View the license [here](https://github.com/Vomet/Parts-Ordering-Automator/blob/main/LICENSE.txt).
+
+
 ; Variables
 ; note position clicks *relative* to window
 ; position is also denoted as [x, y]
