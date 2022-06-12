@@ -124,9 +124,9 @@ F4::
 	shift_tab()
 	Send {Enter}
 	
-	; ensures on same window
-	alt_tab()
-	alt_tab()
+	; ensures program is focused on Access
+	WinActivate, ahk_exe MSAccess.exe
+
 	
 	; clicks "Save & Close"
 	MouseMove save_and_close_btn_pos[1], save_and_close_btn_pos[2], 0
