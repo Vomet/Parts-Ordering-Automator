@@ -24,7 +24,7 @@ For use in a specific Microsoft Access Database template.
   1. Clicks and completes "Payment Info" tab
   2. Completes "Invoice Order", "Ship Order", "Mark as Complete", and (planned) clicks "New Order" button
 
-`F5` or `End`: (planned) Stops program (by refreshing script)
+`F5`: (planned) Stops program (by refreshing script)
 
 
 ## Potential Issues
