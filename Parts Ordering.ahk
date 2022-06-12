@@ -73,7 +73,7 @@ F3::
 	; clicks "Shipping Info" tab
 	MouseMove shipping_info_tab_pos[1], shipping_info_tab_pos[2], 0
 	Send {Click Left}
-	
+
 	; moves to "Ship Via"
 	Send {Tab}
 	show_dropdown()
@@ -81,7 +81,7 @@ F3::
 }
 
 F4::
-{
+{		
 	; clicks "Payment Info" tab
 	MouseMove payment_info_tab_pos[1], payment_info_tab_pos[2], 0
 	Send {Click Left}
@@ -135,4 +135,5 @@ F4::
 	return
 }
 
-; Esc::Reload
+; reloads program. stops script
+F5::Reload
