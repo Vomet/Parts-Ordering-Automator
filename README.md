@@ -4,13 +4,15 @@ This project is licensed under the terms of the MIT license. View the license [h
 For use in a specific Microsoft Access Database template.
 
 ## Prerequisites
-1. Download latest version of [AutoHotKey](https://www.autohotkey.com/). Note, the portable version is recommended.
+1. Download latest version of [AutoHotKey](https://www.autohotkey.com/). Note, the [portable version](https://www.autohotkey.com/download/) is recommended.
 2. Download this [repository](https://github.com/Vomet/Parts-Ordering-Automator/) as a ZIP file.
 3. Extract ZIP file.
 4. Run in AutoHotKey.
 
 ## Instructions
-1. Run `Parts Ordering.ahk`
+1. Ensure AutoHotKey is running. If portable, open the `.ahk` file with `AutoHotKeyU64.exe`.
+2. Open `Parts Ordering.ahk`.
+3. Ensure coordinates work on your computer. If not, use `WindowSpy.exe` in `AutoHotKey.zip`
 
 
 ### Hotkeys
