@@ -19,7 +19,7 @@ For use in a specific Microsoft Access Database template.
 ### Window Spy
 Window Spy helps you set coordinates for this script. When setting coordinates, ensure that you use the **Window** values under **Mouse Position**. See screenshot below as reference.
 
-![](image_here)
+![](ahk_window_screenshot.png)
 
 You will need to set XY coordinates for the following variables:
 - New Order button (new_order_btn_pos)
