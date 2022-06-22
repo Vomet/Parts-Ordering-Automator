@@ -1,5 +1,3 @@
-# Parts Ordering Code
-
 ; This project is licensed under the terms of the MIT license. View the license [here](https://github.com/Vomet/Parts-Ordering-Automator/blob/main/LICENSE.txt).
 
 /* A copy of the MIT license is also pasted here.
