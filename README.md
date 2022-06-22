@@ -17,7 +17,9 @@ For use in a specific Microsoft Access Database template.
   - **Do not assume the default coordinates work.**
 
 ### Window Spy
-Window Spy helps you set coordinates for this script. When setting coordinates, ensure that you use the **Window** values under **Mouse Position**. See screenshot below as reference.
+Window Spy helps you set coordinates for this script. You can access by right clicking the script or clicking on `WindowSpy.ahk` in the AutoHotKey folder.
+
+When setting coordinates, ensure that you use the **Window** values under **Mouse Position**. See screenshot below as reference.
 
 ![](ahk_window_screenshot.png)
 
