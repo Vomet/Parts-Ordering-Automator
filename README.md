@@ -1,5 +1,5 @@
 # Parts-Ordering-Automator
-This project is licensed under the terms of the MIT license. View the license [here](https://github.com/Vomet/Parts-Ordering-Automator/blob/main/LICENSE.txt).
+This project is licensed under the terms of the MIT license. View the license [here](https://github.com/Vomet/Parts-Ordering-Automator/blob/main/LICENSE.txt). The license is also in the code.
 
 For use in a specific Microsoft Access Database template.
 
@@ -17,11 +17,11 @@ For use in a specific Microsoft Access Database template.
   - **Do not assume the default coordinates work.**
 
 ### Window Spy
-Window Spy helps you set coordinates for this script. When setting coordinates, ensure that you use the Window values under Mouse Position. See screenshot below as reference.
+Window Spy helps you set coordinates for this script. When setting coordinates, ensure that you use the **Window** values under **Mouse Position**. See screenshot below as reference.
 
 ![](image_here)
 
-You will need to set coordinates for the following variables:
+You will need to set XY coordinates for the following variables:
 - New Order button (new_order_btn_pos)
 - Product Info tab (product_info_tab_pos)
 - Shipping Info tab (shipping_info_tab_pos)
@@ -36,14 +36,16 @@ You will need to set coordinates for the following variables:
 
 `F3`: Clicks "Shipping Info" tab and selects dropdown
 
-`F4`:
-  1. Completes "Payment Info" tab
-  2. Completes "Invoice Order", "Ship Order", "Mark as Complete", and presses `F1` (clicks "New Order" button)
+`F4`: Completes "Payment Info" tab, "Invoice Order", "Ship Order", Clicks "Mark as Complete"
 
-`F5`: Stops program (by refreshing script)
+`F5`: Selects "Allow" for email prompt, exits ticket, and presses `F1` (clicks "New Order" button)
+
+`F6`: Stops program (by refreshing script)
 
 
 ## Potential Issues
-It is recommended to press each function key in sequential order (`F1`, `F2`, `F3`, `F4`). Pressing keys out of order may result in errors.
+It is recommended to press each function key in sequential order (`F1`, `F2`, `F3`, `F4`, `F5`). Pressing keys out of order may result in errors.
 
-Occasionally, the mouse may click off the ticket window. If it does, it will then close that ticket window. Reopen that ticket window and continue from there. You may still use the script.
+The mouse may click off the ticket window, close that ticket window, and open up the first ticket in the list. If so, reopen that ticket window and continue from there. You may still use the script.
+
+The program may also accidentally close the Access database. If so, reopen the database.
