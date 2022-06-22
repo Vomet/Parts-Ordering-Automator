@@ -1,5 +1,33 @@
 ; This project is licensed under the terms of the MIT license. View the license [here](https://github.com/Vomet/Parts-Ordering-Automator/blob/main/LICENSE.txt).
 
+/* A copy of the MIT license is also pasted here.
+MIT License
+
+Copyright (c) 2022-present Kevin Duong
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+/*
+This program requires AutoHotKey. You may download a portable version at https://autohotkey.com/download/. The portable version does not require administrative privileges.
+- portable version is the .zip file. Unzip and open the program using AutoHotKeyU64.exe
+*/
 
 ; Variables
 ; note position clicks *relative* to window. Use WindowSpy.ahk to get XY coordinates
@@ -31,17 +59,6 @@ shift_tab()
 	Send {Tab up}
 	return
 }
-
-alt_tab()
-{
-	; presses alt + tab
-	Send {LAlt down}
-	Send {Tab down}
-	Send {LAlt up}
-	Send {Tab up}
-	return
-}
-
 
 ; Hotkeys
 F1::
@@ -116,7 +133,7 @@ F4::
 	Send {Enter}
 	
 	; selects Allow for email prompt
-	Sleep, 9000
+	Sleep, 15000
 	; comment line if testing. if not commented, it will click "Allow"
 	; shift_tab()
 	Send {Enter}
@@ -128,13 +145,13 @@ F4::
 	
 	; clicks "Save & Close"
 	MouseMove save_and_close_btn_pos[1], save_and_close_btn_pos[2], 0
+	Sleep, 100
 	Send {Click Left}
 
-	/*
-	; #todo: make program press F1 so that it will open up "New Order" button
+	; makes program press F1 so that it will open up "New Order" button
+	Sleep, 100
 	Send {F1}
 	return
-	*/
 }
 
 ; reloads program. stops script
