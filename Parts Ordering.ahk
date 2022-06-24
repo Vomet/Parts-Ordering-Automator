@@ -131,11 +131,13 @@ F4::
 	Send {Enter}
 	Sleep, 500
 	Send {Enter}
-	
-	; selects Allow for email prompt
-	Sleep, 15000
+	return
+}
+
+F5::
+{
 	; comment line if testing. if not commented, it will click "Allow"
-	; shift_tab()
+	shift_tab()
 	Send {Enter}
 	
 	; ensures program is focused on Access
@@ -155,4 +157,4 @@ F4::
 }
 
 ; reloads program. stops script
-F5::Reload
+F6::Reload
